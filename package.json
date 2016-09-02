@@ -1,6 +1,6 @@
 {
   "name": "natman",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Forward public external ports to internal local area network ports without touching your router.",
   "main": "./lib/natman.js",
   "dependencies": {
@@ -8,9 +8,9 @@
     "flatiron": "*",
     "utile": "*",
     "revalidator": "*",
-    "nat-pmp": "0.0.1",
-    "nat-upnp": "~0.2.4",
-    "netroute": "~0.2.2"
+    "nat-pmp": "~1.0.0",
+    "nat-upnp": "~1.0.3",
+    "netroute": "~1.0.2"
   },
   "bin": {
     "natman": "./bin/natman"
